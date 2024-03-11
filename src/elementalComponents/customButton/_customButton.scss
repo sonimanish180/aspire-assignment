@@ -1,0 +1,22 @@
+.custom-button {
+    text-decoration: none;
+    border: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    gap: 0.8rem;
+    cursor: pointer;
+}
+
+.primary {
+    background: var(--button-bg-color);
+    color: var(--text-color-light);
+
+    &:hover {
+        opacity: 80%;
+    }
+}

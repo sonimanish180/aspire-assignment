@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    //backgrounds
+    --bg-color-dark: #0C365A;
+    --bg-color-light: #FFFFFF;
+    --bg-color-green: #01D167;
+    --bg-color-light-blue: #EDF3FF;
+    --bg-color-light-green: #EDFFF5;
+
+    // text colors
+    --text-color-dark: #222222;
+    --text-color-light: #FFFFFF;
+    --text-color-blue: #325BAF;
+    --text-color-grey: #AAAAAA;
+    --text-color-green: #01D167;
+
+    //border colors
+    --border-grey: #F0F0F0;
+    --border-blue: #23CEFD;
+
+    //button colors
+    --button-bg-color: #325BAF;
+
+    // divider colors
+    --divider-color: #F5F5F5;
+
+    font-size: 10px;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh ;
+    position: relative;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-dark);
+    font-size: 10px;
+}
+
+
+// ---------------------------------------------------------------------------------------------------------------------- //
+
+
+// imports for Components
+@import "../components/mainLayout/mainLayout";
+@import "../components/sideNavBar/sideNavbar";
+@import "../components/screens/cards/cards";
+@import "../components/screens/cards/cardsCarousel/cardsCarousel";
+
+// imports for Elemental Components
+@import "../elementalComponents/customButton/customButton";
+@import "../elementalComponents/cardComponent/cardComponent";
+@import "../elementalComponents/dropdown/dropdown";
+@import "../elementalComponents/addCardModal/addCardModal";

@@ -1,0 +1,85 @@
+.card-component {
+    width: 100%;
+    height: fit-content;
+    background: var(--bg-color-green);
+    color: var(--text-color-light);
+    padding: 2.6rem;
+
+    display: flex;
+    flex-direction: column;
+
+    img {
+        height: 2.4rem;
+    }
+
+    .card-logo {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 2.6rem;
+    }
+
+    .card-type-logo {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .name {
+        font-size: 2.4rem;
+        letter-spacing: 0.5px;
+        line-height: 3.2rem;
+        margin-bottom: 2.6rem;
+    }
+
+    .card-number {
+        display: flex;
+        gap: 2.6rem;
+        margin-bottom: 2rem;
+
+        .number {
+            font-size: 1.4rem;
+            letter-spacing: 0.34rem;
+        }
+    }
+
+    .valid-cvv {
+        font-size: 1.4rem;
+        gap: 3.2rem;
+        display: flex;
+        height: 2.4rem;
+
+        .cvv {
+            display: flex;
+
+            span {
+                margin-left: 0.8rem;
+            }
+            
+            .star {
+                font-size: 2.4rem;
+                letter-spacing: 1.6px;
+            }
+        }
+    }
+}
+
+.mask-dot-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+
+    .mask-dot {
+        width: 0.8rem;
+        height: 0.8rem;
+        border-radius: 100%;
+        background-color: white;
+    }
+}
+
+.freeze {
+    background-color: grey;
+    opacity: 60%;
+}
